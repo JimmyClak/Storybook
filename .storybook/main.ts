@@ -1,5 +1,5 @@
 import type { StorybookConfig } from "@storybook/nextjs";
-import path from 'path'; // Importa la librería path para manejar las rutas
+import path from 'path';
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
